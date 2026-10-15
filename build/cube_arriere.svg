@@ -1,0 +1,91 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='640' height='600' font-family='sans-serif'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='320' y='28' text-anchor='middle' font-size='18'>Cube - vue arriere (demi-aretes)</text>
+<defs>
+<marker id='a0' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0,0 L10,5 L0,10 z' fill='#e6550d'/></marker>
+<marker id='a1' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0,0 L10,5 L0,10 z' fill='#3182bd'/></marker>
+<marker id='a2' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0,0 L10,5 L0,10 z' fill='#31a354'/></marker>
+<marker id='a3' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0,0 L10,5 L0,10 z' fill='#756bb1'/></marker>
+<marker id='a4' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0,0 L10,5 L0,10 z' fill='#d6a000'/></marker>
+<marker id='a5' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0,0 L10,5 L0,10 z' fill='#e7298a'/></marker>
+</defs>
+<polygon fill='#3182bd' fill-opacity='0.15' stroke='#444' stroke-width='1.5' points='162.907,197.985 277.907,282.165 362.093,149.384 '/>
+<polygon fill='#3182bd' fill-opacity='0.15' stroke='#444' stroke-width='1.5' points='277.907,282.165 477.093,233.564 362.093,149.384 '/>
+<polygon fill='#756bb1' fill-opacity='0.15' stroke='#444' stroke-width='1.5' points='477.093,233.564 277.907,282.165 477.093,442.015 '/>
+<polygon fill='#756bb1' fill-opacity='0.15' stroke='#444' stroke-width='1.5' points='277.907,282.165 277.907,490.616 477.093,442.015 '/>
+<polygon fill='#e7298a' fill-opacity='0.15' stroke='#444' stroke-width='1.5' points='277.907,490.616 277.907,282.165 162.907,406.436 '/>
+<polygon fill='#e7298a' fill-opacity='0.15' stroke='#444' stroke-width='1.5' points='277.907,282.165 162.907,197.985 162.907,406.436 '/>
+<line x1='329.503' y1='163.696' x2='197.243' y2='195.968' stroke='#3182bd' stroke-width='2.2' marker-end='url(#a1)'/>
+<text x='264.554' y='191.149' font-size='10' text-anchor='middle' fill='#3182bd'>h6</text>
+<line x1='190.256' y1='206.988' x2='266.616' y2='262.884' stroke='#3182bd' stroke-width='2.2' marker-end='url(#a1)'/>
+<text x='239.299' y='230.983' font-size='10' text-anchor='middle' fill='#3182bd'>h7</text>
+<line x1='283.148' y1='258.85' x2='339.048' y2='170.683' stroke='#3182bd' stroke-width='2.2' marker-end='url(#a1)'/>
+<text x='299.054' y='216.403' font-size='10' text-anchor='middle' fill='#3182bd'>h8</text>
+<line x1='356.852' y1='172.699' x2='300.952' y2='260.866' stroke='#3182bd' stroke-width='2.2' marker-end='url(#a1)'/>
+<text x='340.946' y='221.147' font-size='10' text-anchor='middle' fill='#3182bd'>h9</text>
+<line x1='310.497' y1='267.853' x2='442.757' y2='235.582' stroke='#3182bd' stroke-width='2.2' marker-end='url(#a1)'/>
+<text x='375.446' y='246.4' font-size='10' text-anchor='middle' fill='#3182bd'>h10</text>
+<line x1='449.744' y1='224.561' x2='373.384' y2='168.666' stroke='#3182bd' stroke-width='2.2' marker-end='url(#a1)'/>
+<text x='400.701' y='206.566' font-size='10' text-anchor='middle' fill='#3182bd'>h11</text>
+<line x1='465.806' y1='403.843' x2='465.806' y2='265.432' stroke='#756bb1' stroke-width='2.2' marker-end='url(#a3)'/>
+<text x='450.535' y='333.373' font-size='10' text-anchor='middle' fill='#756bb1'>h18</text>
+<line x1='449.273' y1='252.164' x2='317.014' y2='284.435' stroke='#756bb1' stroke-width='2.2' marker-end='url(#a3)'/>
+<text x='390.779' y='285.418' font-size='10' text-anchor='middle' fill='#756bb1'>h19</text>
+<line x1='317.014' y1='301.737' x2='449.273' y2='407.877' stroke='#756bb1' stroke-width='2.2' marker-end='url(#a3)'/>
+<text x='390.779' y='347.953' font-size='10' text-anchor='middle' fill='#756bb1'>h20</text>
+<line x1='437.986' y1='422.443' x2='305.727' y2='316.303' stroke='#756bb1' stroke-width='2.2' marker-end='url(#a3)'/>
+<text x='364.221' y='382.227' font-size='10' text-anchor='middle' fill='#756bb1'>h21</text>
+<line x1='289.194' y1='320.337' x2='289.194' y2='458.748' stroke='#756bb1' stroke-width='2.2' marker-end='url(#a3)'/>
+<text x='304.465' y='396.807' font-size='10' text-anchor='middle' fill='#756bb1'>h22</text>
+<line x1='305.727' y1='472.016' x2='437.986' y2='439.744' stroke='#756bb1' stroke-width='2.2' marker-end='url(#a3)'/>
+<text x='364.221' y='444.762' font-size='10' text-anchor='middle' fill='#756bb1'>h23</text>
+<line x1='185.485' y1='411.151' x2='261.845' y2='467.046' stroke='#e7298a' stroke-width='2.2' marker-end='url(#a5)'/>
+<text x='228.074' y='429.344' font-size='10' text-anchor='middle' fill='#e7298a'>h30</text>
+<line x1='271.39' y1='456.732' x2='271.39' y2='318.321' stroke='#e7298a' stroke-width='2.2' marker-end='url(#a5)'/>
+<text x='262.574' y='392.063' font-size='10' text-anchor='middle' fill='#e7298a'>h31</text>
+<line x1='261.845' y1='311.334' x2='185.485' y2='393.85' stroke='#e7298a' stroke-width='2.2' marker-end='url(#a5)'/>
+<text x='228.074' y='366.809' font-size='10' text-anchor='middle' fill='#e7298a'>h32</text>
+<line x1='178.969' y1='377.267' x2='255.329' y2='294.751' stroke='#e7298a' stroke-width='2.2' marker-end='url(#a5)'/>
+<text x='212.74' y='327.792' font-size='10' text-anchor='middle' fill='#e7298a'>h33</text>
+<line x1='255.329' y1='277.45' x2='178.969' y2='221.555' stroke='#e7298a' stroke-width='2.2' marker-end='url(#a5)'/>
+<text x='212.74' y='265.257' font-size='10' text-anchor='middle' fill='#e7298a'>h34</text>
+<line x1='169.424' y1='231.869' x2='169.424' y2='370.28' stroke='#e7298a' stroke-width='2.2' marker-end='url(#a5)'/>
+<text x='178.24' y='302.538' font-size='10' text-anchor='middle' fill='#e7298a'>h35</text>
+<circle cx='162.907' cy='197.985' r='11' fill='white' stroke='black'/>
+<text x='162.907' y='201.985' font-size='11' text-anchor='middle' font-weight='bold'>v5</text>
+<circle cx='277.907' cy='282.165' r='11' fill='white' stroke='black'/>
+<text x='277.907' y='286.165' font-size='11' text-anchor='middle' font-weight='bold'>v6</text>
+<circle cx='362.093' cy='149.384' r='11' fill='white' stroke='black'/>
+<text x='362.093' y='153.384' font-size='11' text-anchor='middle' font-weight='bold'>v4</text>
+<circle cx='277.907' cy='282.165' r='11' fill='white' stroke='black'/>
+<text x='277.907' y='286.165' font-size='11' text-anchor='middle' font-weight='bold'>v6</text>
+<circle cx='477.093' cy='233.564' r='11' fill='white' stroke='black'/>
+<text x='477.093' y='237.564' font-size='11' text-anchor='middle' font-weight='bold'>v7</text>
+<circle cx='362.093' cy='149.384' r='11' fill='white' stroke='black'/>
+<text x='362.093' y='153.384' font-size='11' text-anchor='middle' font-weight='bold'>v4</text>
+<circle cx='477.093' cy='233.564' r='11' fill='white' stroke='black'/>
+<text x='477.093' y='237.564' font-size='11' text-anchor='middle' font-weight='bold'>v7</text>
+<circle cx='277.907' cy='282.165' r='11' fill='white' stroke='black'/>
+<text x='277.907' y='286.165' font-size='11' text-anchor='middle' font-weight='bold'>v6</text>
+<circle cx='477.093' cy='442.015' r='11' fill='white' stroke='black'/>
+<text x='477.093' y='446.015' font-size='11' text-anchor='middle' font-weight='bold'>v3</text>
+<circle cx='277.907' cy='282.165' r='11' fill='white' stroke='black'/>
+<text x='277.907' y='286.165' font-size='11' text-anchor='middle' font-weight='bold'>v6</text>
+<circle cx='277.907' cy='490.616' r='11' fill='white' stroke='black'/>
+<text x='277.907' y='494.616' font-size='11' text-anchor='middle' font-weight='bold'>v2</text>
+<circle cx='477.093' cy='442.015' r='11' fill='white' stroke='black'/>
+<text x='477.093' y='446.015' font-size='11' text-anchor='middle' font-weight='bold'>v3</text>
+<circle cx='277.907' cy='490.616' r='11' fill='white' stroke='black'/>
+<text x='277.907' y='494.616' font-size='11' text-anchor='middle' font-weight='bold'>v2</text>
+<circle cx='277.907' cy='282.165' r='11' fill='white' stroke='black'/>
+<text x='277.907' y='286.165' font-size='11' text-anchor='middle' font-weight='bold'>v6</text>
+<circle cx='162.907' cy='406.436' r='11' fill='white' stroke='black'/>
+<text x='162.907' y='410.436' font-size='11' text-anchor='middle' font-weight='bold'>v1</text>
+<circle cx='277.907' cy='282.165' r='11' fill='white' stroke='black'/>
+<text x='277.907' y='286.165' font-size='11' text-anchor='middle' font-weight='bold'>v6</text>
+<circle cx='162.907' cy='197.985' r='11' fill='white' stroke='black'/>
+<text x='162.907' y='201.985' font-size='11' text-anchor='middle' font-weight='bold'>v5</text>
+<circle cx='162.907' cy='406.436' r='11' fill='white' stroke='black'/>
+<text x='162.907' y='410.436' font-size='11' text-anchor='middle' font-weight='bold'>v1</text>
+<text x='320' y='588' text-anchor='middle' font-size='13' fill='#555'>fleche = demi-arete (origine -> cible) ; 2 fleches opposees = twins</text>
+</svg>

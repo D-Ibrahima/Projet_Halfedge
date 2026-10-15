@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Maillage half-edge 3D</title>
+<style>
+body{margin:0;font-family:sans-serif;background:#fafafa;overflow:hidden}
+canvas{display:block;cursor:grab}
+#ui{position:fixed;top:8px;left:8px;background:#fffd;padding:8px 10px;
+border-radius:6px;font-size:13px;line-height:1.7;box-shadow:0 1px 4px #0003}
+</style></head><body>
+<div id="ui"><b>Glisser</b> : tourner &middot; <b>Molette</b> : zoom<br>
+<label><input type="checkbox" id="lab" checked> numeros h</label><br>
+<label><input type="checkbox" id="back" checked> demi-aretes des faces cachees</label><br>
+<label><input type="checkbox" id="auto"> rotation automatique</label><br>
+<button id="reset">reinitialiser la vue</button></div>
+<canvas id="c"></canvas>
+<script>
+const D = {"v":[[0,0,0],[1,0,0],[1,1,0],[0,1,0],[0,0,1],[1,0,1],[1,1,1],[0,1,1]],"f":[[3,2,0],[2,1,0],[5,6,4],[6,7,4],[1,5,0],[5,4,0],[7,6,3],[6,2,3],[4,7,0],[7,3,0],[2,6,1],[6,5,1]],"h":[[0,3,0,29],[3,2,0,23],[2,0,0,3],[0,2,1,2],[2,1,1,30],[1,0,1,12],[4,5,2,16],[5,6,2,34],[6,4,2,9],[4,6,3,8],[6,7,3,19],[7,4,3,25],[0,1,4,5],[1,5,4,35],[5,0,4,15],[0,5,5,14],[5,4,5,6],[4,0,5,24],[3,7,6,28],[7,6,6,10],[6,3,6,21],[3,6,7,20],[6,2,7,31],[2,3,7,1],[0,4,8,17],[4,7,8,11],[7,0,8,27],[0,7,9,26],[7,3,9,18],[3,0,9,0],[1,2,10,4],[2,6,10,22],[6,1,10,33],[1,6,11,32],[6,5,11,7],[5,1,11,13]]};
+const cv = document.getElementById('c'), ctx = cv.getContext('2d');
+const cols = ['#e6550d','#3182bd','#31a354','#756bb1','#d6a000','#e7298a'];
+let yaw = 0.6, pitch = 0.45, zoom = 1, drag = false, lx = 0, ly = 0;
+
+function rot(p) {
+  const x = p[0]-0.5, y = p[1]-0.5, z = p[2]-0.5;
+  const x1 = x*Math.cos(yaw) - y*Math.sin(yaw);
+  const y1 = x*Math.sin(yaw) + y*Math.cos(yaw);
+  return [x1, y1*Math.cos(pitch) - z*Math.sin(pitch),
+              y1*Math.sin(pitch) + z*Math.cos(pitch)];
+}
+function draw() {
+  const W = cv.width, H = cv.height, S = Math.min(W, H)*0.30*zoom, dist = 4;
+  ctx.clearRect(0, 0, W, H);
+  const R = D.v.map(rot);
+  const P = R.map(r => { const k = dist/(dist + r[1]);
+    return [W/2 + r[0]*S*k, H/2 - r[2]*S*k]; });
+  const showBack = document.getElementById('back').checked;
+  const showLab = document.getElementById('lab').checked;
+
+  const order = D.f.map((f, i) => i);
+  const depth = i => (R[D.f[i][0]][1] + R[D.f[i][1]][1] + R[D.f[i][2]][1])/3;
+  order.sort((a, b) => depth(b) - depth(a));          // du plus loin au plus proche
+
+  for (const fi of order) {
+    const f = D.f[fi], c = cols[Math.floor(fi/2)];
+    const a = R[f[0]], b = R[f[1]], d = R[f[2]];
+    const u = [b[0]-a[0], b[1]-a[1], b[2]-a[2]], v = [d[0]-a[0], d[1]-a[1], d[2]-a[2]];
+    const ny = u[2]*v[0] - u[0]*v[2];
+    const front = ny < 0;                              // face tournee vers la camera
+    ctx.beginPath();
+    ctx.moveTo(P[f[0]][0], P[f[0]][1]);
+    ctx.lineTo(P[f[1]][0], P[f[1]][1]);
+    ctx.lineTo(P[f[2]][0], P[f[2]][1]);
+    ctx.closePath();
+    ctx.globalAlpha = front ? 0.30 : 0.10;
+    ctx.fillStyle = c; ctx.fill();
+    ctx.globalAlpha = front ? 0.9 : 0.35;
+    ctx.strokeStyle = '#444'; ctx.lineWidth = 1.5; ctx.stroke();
+
+    if (!front && !showBack) continue;
+    ctx.globalAlpha = front ? 1 : 0.3;
+    const g = [(P[f[0]][0]+P[f[1]][0]+P[f[2]][0])/3, (P[f[0]][1]+P[f[1]][1]+P[f[2]][1])/3];
+    D.h.forEach((h, hi) => {
+      if (h[2] !== fi) return;
+      const o = P[h[0]], t = P[h[1]], k = 0.17;
+      const ox = o[0]+(g[0]-o[0])*k, oy = o[1]+(g[1]-o[1])*k;
+      const tx = t[0]+(g[0]-t[0])*k, ty = t[1]+(g[1]-t[1])*k;
+      const x1 = ox+(tx-ox)*0.10, y1 = oy+(ty-oy)*0.10;
+      const x2 = ox+(tx-ox)*0.90, y2 = oy+(ty-oy)*0.90;
+      ctx.strokeStyle = ctx.fillStyle = c; ctx.lineWidth = 2.2;
+      ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+      const an = Math.atan2(y2-y1, x2-x1), s = 9;
+      ctx.beginPath(); ctx.moveTo(x2, y2);
+      ctx.lineTo(x2 - s*Math.cos(an-0.4), y2 - s*Math.sin(an-0.4));
+      ctx.lineTo(x2 - s*Math.cos(an+0.4), y2 - s*Math.sin(an+0.4));
+      ctx.closePath(); ctx.fill();
+      if (showLab) {
+        const mx = (o[0]+t[0])/2, my = (o[1]+t[1])/2;
+        ctx.font = '10px sans-serif'; ctx.textAlign = 'center';
+        ctx.fillText('h'+hi, mx+(g[0]-mx)*0.42, my+(g[1]-my)*0.42+3);
+      }
+    });
+  }
+  ctx.globalAlpha = 1;
+  P.forEach((p, i) => {                                 // sommets
+    ctx.beginPath(); ctx.arc(p[0], p[1], 11, 0, 7);
+    ctx.fillStyle = 'white'; ctx.fill();
+    ctx.strokeStyle = 'black'; ctx.lineWidth = 1; ctx.stroke();
+    ctx.fillStyle = 'black'; ctx.font = 'bold 11px sans-serif';
+    ctx.textAlign = 'center'; ctx.fillText('v'+i, p[0], p[1]+4);
+  });
+}
+function resize() { cv.width = innerWidth; cv.height = innerHeight; draw(); }
+function start(x, y) { drag = true; lx = x; ly = y; cv.style.cursor = 'grabbing'; }
+function move(x, y) {
+  if (!drag) return;
+  yaw += (x-lx)*0.01; pitch += (y-ly)*0.01;
+  pitch = Math.max(-1.5, Math.min(1.5, pitch));
+  lx = x; ly = y; draw();
+}
+function stop() { drag = false; cv.style.cursor = 'grab'; }
+cv.addEventListener('mousedown', e => start(e.clientX, e.clientY));
+addEventListener('mousemove', e => move(e.clientX, e.clientY));
+addEventListener('mouseup', stop);
+cv.addEventListener('touchstart', e => { start(e.touches[0].clientX, e.touches[0].clientY); e.preventDefault(); }, {passive:false});
+cv.addEventListener('touchmove', e => { move(e.touches[0].clientX, e.touches[0].clientY); e.preventDefault(); }, {passive:false});
+cv.addEventListener('touchend', stop);
+cv.addEventListener('wheel', e => {
+  zoom *= e.deltaY < 0 ? 1.1 : 0.9; zoom = Math.max(0.3, Math.min(4, zoom));
+  draw(); e.preventDefault();
+}, {passive:false});
+document.getElementById('reset').onclick = () => { yaw = 0.6; pitch = 0.45; zoom = 1; draw(); };
+['lab','back'].forEach(i => document.getElementById(i).onchange = draw);
+(function loop() {
+  if (document.getElementById('auto').checked && !drag) { yaw += 0.01; draw(); }
+  requestAnimationFrame(loop);
+})();
+addEventListener('resize', resize);
+resize();
+</script></body></html>

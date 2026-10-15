@@ -1,0 +1,3 @@
+/home/sory/H_E/build/CMakeFiles/halfedge.dir
+/home/sory/H_E/build/CMakeFiles/edit_cache.dir
+/home/sory/H_E/build/CMakeFiles/rebuild_cache.dir

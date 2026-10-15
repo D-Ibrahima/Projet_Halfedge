@@ -1,0 +1,4679 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sory/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 7.0.0-38-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sory/.local/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sory/.local/bin/c++"
+      - "/usr/local/sbin/c++"
+      - "/usr/local/bin/c++"
+      - "/usr/sbin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/sory/H_E/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/sory/.local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/sory/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-15.2"
+      - "/home/sory/.local/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/usr/sbin/gcc-ar-15.2"
+      - "/sbin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/usr/games/gcc-ar-15.2"
+      - "/usr/local/games/gcc-ar-15.2"
+      - "/snap/bin/gcc-ar-15.2"
+    found: "/usr/bin/gcc-ar-15"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/home/sory/.local/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/usr/sbin/gcc-ranlib-15.2"
+      - "/sbin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/usr/games/gcc-ranlib-15.2"
+      - "/usr/local/games/gcc-ranlib-15.2"
+      - "/snap/bin/gcc-ranlib-15.2"
+    found: "/usr/bin/gcc-ranlib-15"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-2UVu8k"
+      binary: "/home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-2UVu8k"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-2UVu8k'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c38cb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c38cb.dir/build.make CMakeFiles/cmTC_c38cb.dir/build
+        gmake[1]: Entering directory '/home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-2UVu8k'
+        Building CXX object CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c38cb.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c38cb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc1AMjZG.s
+        GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/15"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/15
+         /usr/include/x86_64-linux-gnu/c++/15
+         /usr/include/c++/15/backward
+         /usr/lib/gcc/x86_64-linux-gnu/15/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: b661a74662ad7cf413c4193391ab5290
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c38cb.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1AMjZG.s
+        GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_c38cb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c38cb.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c38cb' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c38cb.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3CpDXj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c38cb /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 15.2.0
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3CpDXj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c38cb /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.46
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c38cb' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c38cb.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c38cb
+        gmake[1]: Leaving directory '/home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-2UVu8k'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/15]
+          add: [/usr/include/x86_64-linux-gnu/c++/15]
+          add: [/usr/include/c++/15/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/15/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/15] ==> [/usr/include/c++/15]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/15] ==> [/usr/include/x86_64-linux-gnu/c++/15]
+        collapse include dir [/usr/include/c++/15/backward] ==> [/usr/include/c++/15/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/15/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/15/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/15;/usr/include/x86_64-linux-gnu/c++/15;/usr/include/c++/15/backward;/usr/lib/gcc/x86_64-linux-gnu/15/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-2UVu8k']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c38cb/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_c38cb.dir/build.make CMakeFiles/cmTC_c38cb.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-2UVu8k']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c38cb.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c38cb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc1AMjZG.s]
+        ignore line: [GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/15"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/15]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/15]
+        ignore line: [ /usr/include/c++/15/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/15/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b661a74662ad7cf413c4193391ab5290]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c38cb.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1AMjZG.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_c38cb]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c38cb.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c38cb' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c38cb.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3CpDXj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c38cb /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc3CpDXj.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c38cb] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3CpDXj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c38cb /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c38cb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15] ==> [/usr/lib/gcc/x86_64-linux-gnu/15]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/15;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.46
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:11 (find_package)"
+    name: "Eigen3"
+    configs:
+      -
+        filename: "Eigen3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "eigen3-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Eigen3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sory/H_E/build/CMakeFiles/pkgRedirects/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sory/H_E/build/CMakeFiles/pkgRedirects/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sory/.local/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sory/.local/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/share/eigen3/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/share/eigen3/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/usr/share/eigen3/cmake/Eigen3Config.cmake"
+      mode: "config"
+      version: "3.4.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:408 (find_path)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "path"
+    variable: "OPENGL_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GL/gl.h"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+      - "/usr/share/doc/NVIDIA_GLX-1.0/include/"
+      - "/usr/openwin/share/include/"
+      - "/opt/graphics/OpenGL/include/"
+    searched_directories:
+      - "/home/sory/.local/bin/GL/gl.h"
+      - "/usr/local/sbin/GL/gl.h"
+      - "/usr/local/bin/GL/gl.h"
+      - "/usr/sbin/GL/gl.h"
+      - "/usr/bin/GL/gl.h"
+      - "/sbin/GL/gl.h"
+      - "/bin/GL/gl.h"
+      - "/usr/games/GL/gl.h"
+      - "/usr/local/games/GL/gl.h"
+      - "/snap/bin/GL/gl.h"
+      - "/usr/local/include/x86_64-linux-gnu/GL/gl.h"
+      - "/usr/local/include/GL/gl.h"
+      - "/usr/local/GL/gl.h"
+      - "/usr/include/x86_64-linux-gnu/GL/gl.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:414 (find_path)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "path"
+    variable: "OPENGL_GLX_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GL/glx.h"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/GL/glx.h"
+      - "/usr/local/sbin/GL/glx.h"
+      - "/usr/local/bin/GL/glx.h"
+      - "/usr/sbin/GL/glx.h"
+      - "/usr/bin/GL/glx.h"
+      - "/sbin/GL/glx.h"
+      - "/bin/GL/glx.h"
+      - "/usr/games/GL/glx.h"
+      - "/usr/local/games/GL/glx.h"
+      - "/snap/bin/GL/glx.h"
+      - "/usr/local/include/x86_64-linux-gnu/GL/glx.h"
+      - "/usr/local/include/GL/glx.h"
+      - "/usr/local/GL/glx.h"
+      - "/usr/include/x86_64-linux-gnu/GL/glx.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:415 (find_path)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "path"
+    variable: "OPENGL_EGL_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "EGL/egl.h"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/EGL/egl.h"
+      - "/usr/local/sbin/EGL/egl.h"
+      - "/usr/local/bin/EGL/egl.h"
+      - "/usr/sbin/EGL/egl.h"
+      - "/usr/bin/EGL/egl.h"
+      - "/sbin/EGL/egl.h"
+      - "/bin/EGL/egl.h"
+      - "/usr/games/EGL/egl.h"
+      - "/usr/local/games/EGL/egl.h"
+      - "/snap/bin/EGL/egl.h"
+      - "/usr/local/include/x86_64-linux-gnu/EGL/egl.h"
+      - "/usr/local/include/EGL/egl.h"
+      - "/usr/local/EGL/egl.h"
+      - "/usr/include/x86_64-linux-gnu/EGL/egl.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:416 (find_path)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "path"
+    variable: "OPENGL_GLES2_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLES2/gl2.h"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/GLES2/gl2.h"
+      - "/usr/local/sbin/GLES2/gl2.h"
+      - "/usr/local/bin/GLES2/gl2.h"
+      - "/usr/sbin/GLES2/gl2.h"
+      - "/usr/bin/GLES2/gl2.h"
+      - "/sbin/GLES2/gl2.h"
+      - "/bin/GLES2/gl2.h"
+      - "/usr/games/GLES2/gl2.h"
+      - "/usr/local/games/GLES2/gl2.h"
+      - "/snap/bin/GLES2/gl2.h"
+      - "/usr/local/include/x86_64-linux-gnu/GLES2/gl2.h"
+      - "/usr/local/include/GLES2/gl2.h"
+      - "/usr/local/GLES2/gl2.h"
+      - "/usr/include/x86_64-linux-gnu/GLES2/gl2.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:417 (find_path)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "path"
+    variable: "OPENGL_GLES3_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLES3/gl3.h"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/GLES3/gl3.h"
+      - "/usr/local/sbin/GLES3/gl3.h"
+      - "/usr/local/bin/GLES3/gl3.h"
+      - "/usr/sbin/GLES3/gl3.h"
+      - "/usr/bin/GLES3/gl3.h"
+      - "/sbin/GLES3/gl3.h"
+      - "/bin/GLES3/gl3.h"
+      - "/usr/games/GLES3/gl3.h"
+      - "/usr/local/games/GLES3/gl3.h"
+      - "/snap/bin/GLES3/gl3.h"
+      - "/usr/local/include/x86_64-linux-gnu/GLES3/gl3.h"
+      - "/usr/local/include/GLES3/gl3.h"
+      - "/usr/local/GLES3/gl3.h"
+      - "/usr/include/x86_64-linux-gnu/GLES3/gl3.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:418 (find_path)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "path"
+    variable: "OPENGL_xmesa_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GL/xmesa.h"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+      - "/usr/share/doc/NVIDIA_GLX-1.0/include/"
+      - "/usr/openwin/share/include/"
+      - "/opt/graphics/OpenGL/include/"
+    searched_directories:
+      - "/home/sory/.local/bin/GL/xmesa.h"
+      - "/usr/local/sbin/GL/xmesa.h"
+      - "/usr/local/bin/GL/xmesa.h"
+      - "/usr/sbin/GL/xmesa.h"
+      - "/usr/bin/GL/xmesa.h"
+      - "/sbin/GL/xmesa.h"
+      - "/bin/GL/xmesa.h"
+      - "/usr/games/GL/xmesa.h"
+      - "/usr/local/games/GL/xmesa.h"
+      - "/snap/bin/GL/xmesa.h"
+      - "/usr/local/include/x86_64-linux-gnu/GL/xmesa.h"
+      - "/usr/local/include/GL/xmesa.h"
+      - "/usr/local/GL/xmesa.h"
+      - "/usr/include/x86_64-linux-gnu/GL/xmesa.h"
+      - "/usr/include/GL/xmesa.h"
+      - "/usr/GL/xmesa.h"
+      - "/include/x86_64-linux-gnu/GL/xmesa.h"
+      - "/include/GL/xmesa.h"
+      - "/usr/X11R6/include/x86_64-linux-gnu/GL/xmesa.h"
+      - "/usr/X11R6/include/GL/xmesa.h"
+      - "/usr/X11R6/GL/xmesa.h"
+      - "/usr/pkg/include/x86_64-linux-gnu/GL/xmesa.h"
+      - "/usr/pkg/include/GL/xmesa.h"
+      - "/usr/pkg/GL/xmesa.h"
+      - "/opt/include/x86_64-linux-gnu/GL/xmesa.h"
+      - "/opt/include/GL/xmesa.h"
+      - "/opt/GL/xmesa.h"
+      - "/usr/include/X11/GL/xmesa.h"
+      - "/usr/share/doc/NVIDIA_GLX-1.0/include/GL/xmesa.h"
+      - "/usr/openwin/share/include/GL/xmesa.h"
+      - "/opt/graphics/OpenGL/include/GL/xmesa.h"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:424 (find_path)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "path"
+    variable: "OPENGL_GLU_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GL/glu.h"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/GL/glu.h"
+      - "/usr/local/sbin/GL/glu.h"
+      - "/usr/local/bin/GL/glu.h"
+      - "/usr/sbin/GL/glu.h"
+      - "/usr/bin/GL/glu.h"
+      - "/sbin/GL/glu.h"
+      - "/bin/GL/glu.h"
+      - "/usr/games/GL/glu.h"
+      - "/usr/local/games/GL/glu.h"
+      - "/snap/bin/GL/glu.h"
+      - "/usr/local/include/x86_64-linux-gnu/GL/glu.h"
+      - "/usr/local/include/GL/glu.h"
+      - "/usr/local/GL/glu.h"
+      - "/usr/include/x86_64-linux-gnu/GL/glu.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:438 (find_library)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "library"
+    variable: "OPENGL_opengl_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "OpenGL"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib/x86_64-linux-gnu/libOpenGL.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:443 (find_library)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "library"
+    variable: "OPENGL_glx_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLX"
+    candidate_directories:
+      - "/home/sory/.local/bin/libglvnd/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/libglvnd/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/libglvnd/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/libglvnd/"
+      - "/usr/sbin/"
+      - "/usr/bin/libglvnd/"
+      - "/usr/bin/"
+      - "/sbin/libglvnd/"
+      - "/sbin/"
+      - "/bin/libglvnd/"
+      - "/bin/"
+      - "/usr/games/libglvnd/"
+      - "/usr/games/"
+      - "/usr/local/games/libglvnd/"
+      - "/usr/local/games/"
+      - "/snap/bin/libglvnd/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/libglvnd/"
+      - "/usr/local/lib/"
+      - "/usr/local/libglvnd/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/libglvnd/"
+      - "/usr/lib/"
+      - "/usr/libglvnd/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/libglvnd/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/libglvnd/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/libglvnd/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/libglvnd/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/libglvnd/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/libglvnd/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/libglvnd/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/libglvnd/"
+      - "/opt/lib/"
+      - "/opt/libglvnd/"
+      - "/opt/"
+      - "/usr/lib/X11/libglvnd/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/libglvnd/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/libglvnd/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/libglvnd/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/libglvnd/"
+      - "/usr/sbin/"
+      - "/usr/bin/libglvnd/"
+      - "/usr/bin/"
+      - "/sbin/libglvnd/"
+      - "/sbin/"
+      - "/bin/libglvnd/"
+      - "/bin/"
+      - "/usr/games/libglvnd/"
+      - "/usr/games/"
+      - "/usr/local/games/libglvnd/"
+      - "/usr/local/games/"
+      - "/snap/bin/libglvnd/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/libglvnd/"
+      - "/usr/local/lib/"
+      - "/usr/local/libglvnd/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/libglvnd/"
+    found: "/usr/lib/x86_64-linux-gnu/libGLX.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:449 (find_library)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "library"
+    variable: "OPENGL_egl_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "EGL"
+    candidate_directories:
+      - "/home/sory/.local/bin/libglvnd/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/libglvnd/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/libglvnd/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/libglvnd/"
+      - "/usr/sbin/"
+      - "/usr/bin/libglvnd/"
+      - "/usr/bin/"
+      - "/sbin/libglvnd/"
+      - "/sbin/"
+      - "/bin/libglvnd/"
+      - "/bin/"
+      - "/usr/games/libglvnd/"
+      - "/usr/games/"
+      - "/usr/local/games/libglvnd/"
+      - "/usr/local/games/"
+      - "/snap/bin/libglvnd/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/libglvnd/"
+      - "/usr/local/lib/"
+      - "/usr/local/libglvnd/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/libglvnd/"
+      - "/usr/lib/"
+      - "/usr/libglvnd/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/libglvnd/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/libglvnd/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/libglvnd/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/libglvnd/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/libglvnd/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/libglvnd/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/libglvnd/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/libglvnd/"
+      - "/opt/lib/"
+      - "/opt/libglvnd/"
+      - "/opt/"
+      - "/usr/lib/X11/libglvnd/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/libglvnd/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/libglvnd/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/libglvnd/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/libglvnd/"
+      - "/usr/sbin/"
+      - "/usr/bin/libglvnd/"
+      - "/usr/bin/"
+      - "/sbin/libglvnd/"
+      - "/sbin/"
+      - "/bin/libglvnd/"
+      - "/bin/"
+      - "/usr/games/libglvnd/"
+      - "/usr/games/"
+      - "/usr/local/games/libglvnd/"
+      - "/usr/local/games/"
+      - "/snap/bin/libglvnd/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/libglvnd/"
+      - "/usr/local/lib/"
+      - "/usr/local/libglvnd/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/libglvnd/"
+    found: "/usr/lib/x86_64-linux-gnu/libEGL.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:455 (find_library)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "library"
+    variable: "OPENGL_gles2_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLESv2"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib/x86_64-linux-gnu/libGLESv2.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:460 (find_library)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "library"
+    variable: "OPENGL_gles3_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLESv3"
+      - "GLESv2"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib/x86_64-linux-gnu/libGLESv2.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:466 (find_library)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "library"
+    variable: "OPENGL_glu_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLU"
+      - "MesaGLU"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/opt/graphics/OpenGL/lib/"
+      - "/usr/openwin/lib/"
+      - "/usr/shlib/"
+    searched_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib/x86_64-linux-gnu/libGLU.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:521 (find_library)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "library"
+    variable: "OPENGL_gl_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GL"
+      - "MesaGL"
+    candidate_directories:
+      - "/home/sory/.local/bin/libglvnd/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/libglvnd/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/libglvnd/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/libglvnd/"
+      - "/usr/sbin/"
+      - "/usr/bin/libglvnd/"
+      - "/usr/bin/"
+      - "/sbin/libglvnd/"
+      - "/sbin/"
+      - "/bin/libglvnd/"
+      - "/bin/"
+      - "/usr/games/libglvnd/"
+      - "/usr/games/"
+      - "/usr/local/games/libglvnd/"
+      - "/usr/local/games/"
+      - "/snap/bin/libglvnd/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/libglvnd/"
+      - "/usr/local/lib/"
+      - "/usr/local/libglvnd/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/libglvnd/"
+      - "/usr/lib/"
+      - "/usr/libglvnd/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/libglvnd/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/libglvnd/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/libglvnd/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/libglvnd/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/libglvnd/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/libglvnd/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/libglvnd/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/libglvnd/"
+      - "/opt/lib/"
+      - "/opt/libglvnd/"
+      - "/opt/"
+      - "/usr/lib/X11/libglvnd/"
+      - "/usr/lib/X11/"
+      - "/opt/graphics/OpenGL/lib/libglvnd/"
+      - "/opt/graphics/OpenGL/lib/"
+      - "/usr/openwin/lib/libglvnd/"
+      - "/usr/openwin/lib/"
+      - "/usr/shlib/libglvnd/"
+      - "/usr/shlib/"
+    searched_directories:
+      - "/home/sory/.local/bin/libglvnd/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/libglvnd/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/libglvnd/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/libglvnd/"
+      - "/usr/sbin/"
+      - "/usr/bin/libglvnd/"
+      - "/usr/bin/"
+      - "/sbin/libglvnd/"
+      - "/sbin/"
+      - "/bin/libglvnd/"
+      - "/bin/"
+      - "/usr/games/libglvnd/"
+      - "/usr/games/"
+      - "/usr/local/games/libglvnd/"
+      - "/usr/local/games/"
+      - "/snap/bin/libglvnd/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/libglvnd/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/libglvnd/"
+      - "/usr/local/lib/"
+      - "/usr/local/libglvnd/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/libglvnd/"
+    found: "/usr/lib/x86_64-linux-gnu/libGL.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-4.2/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-Pk2Jtg"
+      binary: "/home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-Pk2Jtg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-Pk2Jtg'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_48186/fast
+        gmake[1] : on entre dans le répertoire « /home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-Pk2Jtg »
+        /usr/bin/gmake  -f CMakeFiles/cmTC_48186.dir/build.make CMakeFiles/cmTC_48186.dir/build
+        gmake[2] : on entre dans le répertoire « /home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-Pk2Jtg »
+        Building CXX object CMakeFiles/cmTC_48186.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_48186.dir/src.cxx.o -c /home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-Pk2Jtg/src.cxx
+        Linking CXX executable cmTC_48186
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48186.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_48186.dir/src.cxx.o -o cmTC_48186
+        gmake[2] : on quitte le répertoire « /home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-Pk2Jtg »
+        gmake[1] : on quitte le répertoire « /home/sory/H_E/build/CMakeFiles/CMakeScratch/TryCompile-Pk2Jtg »
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:13 (find_package)"
+    name: "glfw3"
+    configs:
+      -
+        filename: "glfw3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "glfw3-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "glfw3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sory/H_E/build/CMakeFiles/pkgRedirects/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sory/H_E/build/CMakeFiles/pkgRedirects/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sory/.local/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sory/.local/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake"
+      mode: "config"
+      version: "3.4.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindGLEW.cmake:139 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    name: "GLEW"
+    configs:
+      -
+        filename: "GLEWConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "glew-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "GLEW"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sory/H_E/build/CMakeFiles/pkgRedirects/GLEWConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sory/H_E/build/CMakeFiles/pkgRedirects/glew-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sory/.local/GLEWConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sory/.local/glew-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/GLEWConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/glew-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/GLEWConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/glew-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/GLEWConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/glew-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/games/GLEWConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/games/glew-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/games/GLEWConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/games/glew-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/snap/GLEWConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/snap/glew-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/GLEWConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/glew-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindGLEW.cmake:224 (find_path)"
+      - "CMakeLists.txt:14 (find_package)"
+    mode: "path"
+    variable: "GLEW_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GL/glew.h"
+    candidate_directories:
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/GL/glew.h"
+      - "/usr/local/sbin/GL/glew.h"
+      - "/usr/local/bin/GL/glew.h"
+      - "/usr/sbin/GL/glew.h"
+      - "/usr/bin/GL/glew.h"
+      - "/sbin/GL/glew.h"
+      - "/bin/GL/glew.h"
+      - "/usr/games/GL/glew.h"
+      - "/usr/local/games/GL/glew.h"
+      - "/snap/bin/GL/glew.h"
+      - "/usr/local/include/x86_64-linux-gnu/GL/glew.h"
+      - "/usr/local/include/GL/glew.h"
+      - "/usr/local/GL/glew.h"
+      - "/usr/include/x86_64-linux-gnu/GL/glew.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindGLEW.cmake:244 (find_library)"
+      - "CMakeLists.txt:14 (find_package)"
+    mode: "library"
+    variable: "GLEW_SHARED_LIBRARY_RELEASE"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLEW"
+      - "glew"
+      - "glew32"
+    candidate_directories:
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/libx32/"
+      - "/home/sory/.local/bin/lib/Release/x64/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/libx32/"
+      - "/usr/local/sbin/lib/Release/x64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/libx32/"
+      - "/usr/local/bin/lib/Release/x64/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/libx32/"
+      - "/usr/sbin/lib/Release/x64/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/libx32/"
+      - "/usr/bin/lib/Release/x64/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/lib64/"
+      - "/sbin/libx32/"
+      - "/sbin/lib/Release/x64/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/libx32/"
+      - "/bin/lib/Release/x64/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib64/"
+      - "/usr/games/libx32/"
+      - "/usr/games/lib/Release/x64/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/libx32/"
+      - "/usr/local/games/lib/Release/x64/"
+      - "/usr/local/games/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/libx32/"
+      - "/snap/bin/lib/Release/x64/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/libx32/"
+      - "/usr/local/lib/lib/Release/x64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/libx32/"
+      - "/usr/local/lib/Release/x64/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/libx32/"
+      - "/usr/lib/lib/Release/x64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/libx32/"
+      - "/usr/lib/Release/x64/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib64/"
+      - "/lib/x86_64-linux-gnu/libx32/"
+      - "/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/lib/"
+      - "/lib/lib64/"
+      - "/lib/libx32/"
+      - "/lib/lib/Release/x64/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/libx32/"
+      - "/usr/X11R6/lib/lib/Release/x64/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/libx32/"
+      - "/usr/X11R6/lib/Release/x64/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/libx32/"
+      - "/usr/pkg/lib/lib/Release/x64/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/libx32/"
+      - "/usr/pkg/lib/Release/x64/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib64/"
+      - "/opt/lib/x86_64-linux-gnu/libx32/"
+      - "/opt/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/libx32/"
+      - "/opt/lib/lib/Release/x64/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib64/"
+      - "/opt/libx32/"
+      - "/opt/lib/Release/x64/"
+      - "/opt/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/libx32/"
+      - "/usr/lib/X11/lib/Release/x64/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/libx32/"
+      - "/home/sory/.local/bin/libx32/"
+      - "/home/sory/.local/bin/libx32/"
+      - "/home/sory/.local/bin/lib/Release/x64/"
+      - "/home/sory/.local/bin/lib/Release/x64/"
+      - "/home/sory/.local/bin/lib/Release/x64/"
+      - "/home/sory/.local/bin/"
+      - "/home/sory/.local/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/libx32/"
+      - "/usr/local/sbin/libx32/"
+      - "/usr/local/sbin/libx32/"
+      - "/usr/local/sbin/lib/Release/x64/"
+      - "/usr/local/sbin/lib/Release/x64/"
+      - "/usr/local/sbin/lib/Release/x64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/libx32/"
+      - "/usr/local/bin/libx32/"
+      - "/usr/local/bin/libx32/"
+      - "/usr/local/bin/lib/Release/x64/"
+      - "/usr/local/bin/lib/Release/x64/"
+      - "/usr/local/bin/lib/Release/x64/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/libx32/"
+      - "/usr/sbin/libx32/"
+      - "/usr/sbin/libx32/"
+      - "/usr/sbin/lib/Release/x64/"
+      - "/usr/sbin/lib/Release/x64/"
+      - "/usr/sbin/lib/Release/x64/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/libx32/"
+      - "/usr/bin/libx32/"
+      - "/usr/bin/libx32/"
+      - "/usr/bin/lib/Release/x64/"
+      - "/usr/bin/lib/Release/x64/"
+      - "/usr/bin/lib/Release/x64/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib64/"
+      - "/sbin/lib64/"
+      - "/sbin/lib64/"
+      - "/sbin/libx32/"
+      - "/sbin/libx32/"
+      - "/sbin/libx32/"
+      - "/sbin/lib/Release/x64/"
+      - "/sbin/lib/Release/x64/"
+      - "/sbin/lib/Release/x64/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/lib64/"
+      - "/bin/lib64/"
+      - "/bin/libx32/"
+      - "/bin/libx32/"
+      - "/bin/libx32/"
+      - "/bin/lib/Release/x64/"
+      - "/bin/lib/Release/x64/"
+      - "/bin/lib/Release/x64/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib64/"
+      - "/usr/games/lib64/"
+      - "/usr/games/lib64/"
+      - "/usr/games/libx32/"
+      - "/usr/games/libx32/"
+      - "/usr/games/libx32/"
+      - "/usr/games/lib/Release/x64/"
+      - "/usr/games/lib/Release/x64/"
+      - "/usr/games/lib/Release/x64/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/libx32/"
+      - "/usr/local/games/libx32/"
+      - "/usr/local/games/libx32/"
+      - "/usr/local/games/lib/Release/x64/"
+      - "/usr/local/games/lib/Release/x64/"
+      - "/usr/local/games/lib/Release/x64/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/libx32/"
+      - "/snap/bin/libx32/"
+      - "/snap/bin/libx32/"
+      - "/snap/bin/lib/Release/x64/"
+      - "/snap/bin/lib/Release/x64/"
+      - "/snap/bin/lib/Release/x64/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/local/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/local/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/libx32/"
+      - "/usr/local/lib/libx32/"
+      - "/usr/local/lib/libx32/"
+      - "/usr/local/lib/lib/Release/x64/"
+      - "/usr/local/lib/lib/Release/x64/"
+      - "/usr/local/lib/lib/Release/x64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/libx32/"
+      - "/usr/local/libx32/"
+      - "/usr/local/libx32/"
+      - "/usr/local/lib/Release/x64/"
+      - "/usr/local/lib/Release/x64/"
+      - "/usr/local/lib/Release/x64/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/lib/x86_64-linux-gnu/lib/Release/x64/"
+    found: "/usr/lib/x86_64-linux-gnu/libGLEW.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindGLEW.cmake:250 (find_library)"
+      - "CMakeLists.txt:14 (find_package)"
+    mode: "library"
+    variable: "GLEW_SHARED_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLEWd"
+      - "glewd"
+      - "glew32d"
+    candidate_directories:
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/lib64/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib64/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib64/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/lib/"
+      - "/lib/lib64/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib64/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib64/"
+      - "/opt/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/"
+      - "/home/sory/.local/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib64/"
+      - "/sbin/lib64/"
+      - "/sbin/lib64/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/lib64/"
+      - "/bin/lib64/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib64/"
+      - "/usr/games/lib64/"
+      - "/usr/games/lib64/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib64/"
+      - "/lib/x86_64-linux-gnu/lib64/"
+      - "/lib/x86_64-linux-gnu/lib64/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/lib/"
+      - "/lib/lib/"
+      - "/lib/lib/"
+      - "/lib/lib64/"
+      - "/lib/lib64/"
+      - "/lib/lib64/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib64/"
+      - "/opt/lib/x86_64-linux-gnu/lib64/"
+      - "/opt/lib/x86_64-linux-gnu/lib64/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib64/"
+      - "/opt/lib64/"
+      - "/opt/lib64/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindGLEW.cmake:259 (find_library)"
+      - "CMakeLists.txt:14 (find_package)"
+    mode: "library"
+    variable: "GLEW_STATIC_LIBRARY_RELEASE"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLEW"
+      - "glew"
+      - "glew32s"
+    candidate_directories:
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/libx32/"
+      - "/home/sory/.local/bin/lib/Release/x64/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/libx32/"
+      - "/usr/local/sbin/lib/Release/x64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/libx32/"
+      - "/usr/local/bin/lib/Release/x64/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/libx32/"
+      - "/usr/sbin/lib/Release/x64/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/libx32/"
+      - "/usr/bin/lib/Release/x64/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/lib64/"
+      - "/sbin/libx32/"
+      - "/sbin/lib/Release/x64/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/libx32/"
+      - "/bin/lib/Release/x64/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib64/"
+      - "/usr/games/libx32/"
+      - "/usr/games/lib/Release/x64/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/libx32/"
+      - "/usr/local/games/lib/Release/x64/"
+      - "/usr/local/games/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/libx32/"
+      - "/snap/bin/lib/Release/x64/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/libx32/"
+      - "/usr/local/lib/lib/Release/x64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/libx32/"
+      - "/usr/local/lib/Release/x64/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/libx32/"
+      - "/usr/lib/lib/Release/x64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/libx32/"
+      - "/usr/lib/Release/x64/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib64/"
+      - "/lib/x86_64-linux-gnu/libx32/"
+      - "/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/lib/"
+      - "/lib/lib64/"
+      - "/lib/libx32/"
+      - "/lib/lib/Release/x64/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/libx32/"
+      - "/usr/X11R6/lib/lib/Release/x64/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/libx32/"
+      - "/usr/X11R6/lib/Release/x64/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/libx32/"
+      - "/usr/pkg/lib/lib/Release/x64/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/libx32/"
+      - "/usr/pkg/lib/Release/x64/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib64/"
+      - "/opt/lib/x86_64-linux-gnu/libx32/"
+      - "/opt/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/libx32/"
+      - "/opt/lib/lib/Release/x64/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib64/"
+      - "/opt/libx32/"
+      - "/opt/lib/Release/x64/"
+      - "/opt/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/libx32/"
+      - "/usr/lib/X11/lib/Release/x64/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/libx32/"
+      - "/home/sory/.local/bin/libx32/"
+      - "/home/sory/.local/bin/libx32/"
+      - "/home/sory/.local/bin/lib/Release/x64/"
+      - "/home/sory/.local/bin/lib/Release/x64/"
+      - "/home/sory/.local/bin/lib/Release/x64/"
+      - "/home/sory/.local/bin/"
+      - "/home/sory/.local/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/libx32/"
+      - "/usr/local/sbin/libx32/"
+      - "/usr/local/sbin/libx32/"
+      - "/usr/local/sbin/lib/Release/x64/"
+      - "/usr/local/sbin/lib/Release/x64/"
+      - "/usr/local/sbin/lib/Release/x64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/libx32/"
+      - "/usr/local/bin/libx32/"
+      - "/usr/local/bin/libx32/"
+      - "/usr/local/bin/lib/Release/x64/"
+      - "/usr/local/bin/lib/Release/x64/"
+      - "/usr/local/bin/lib/Release/x64/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/libx32/"
+      - "/usr/sbin/libx32/"
+      - "/usr/sbin/libx32/"
+      - "/usr/sbin/lib/Release/x64/"
+      - "/usr/sbin/lib/Release/x64/"
+      - "/usr/sbin/lib/Release/x64/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/libx32/"
+      - "/usr/bin/libx32/"
+      - "/usr/bin/libx32/"
+      - "/usr/bin/lib/Release/x64/"
+      - "/usr/bin/lib/Release/x64/"
+      - "/usr/bin/lib/Release/x64/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib64/"
+      - "/sbin/lib64/"
+      - "/sbin/lib64/"
+      - "/sbin/libx32/"
+      - "/sbin/libx32/"
+      - "/sbin/libx32/"
+      - "/sbin/lib/Release/x64/"
+      - "/sbin/lib/Release/x64/"
+      - "/sbin/lib/Release/x64/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/lib64/"
+      - "/bin/lib64/"
+      - "/bin/libx32/"
+      - "/bin/libx32/"
+      - "/bin/libx32/"
+      - "/bin/lib/Release/x64/"
+      - "/bin/lib/Release/x64/"
+      - "/bin/lib/Release/x64/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib64/"
+      - "/usr/games/lib64/"
+      - "/usr/games/lib64/"
+      - "/usr/games/libx32/"
+      - "/usr/games/libx32/"
+      - "/usr/games/libx32/"
+      - "/usr/games/lib/Release/x64/"
+      - "/usr/games/lib/Release/x64/"
+      - "/usr/games/lib/Release/x64/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/libx32/"
+      - "/usr/local/games/libx32/"
+      - "/usr/local/games/libx32/"
+      - "/usr/local/games/lib/Release/x64/"
+      - "/usr/local/games/lib/Release/x64/"
+      - "/usr/local/games/lib/Release/x64/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/libx32/"
+      - "/snap/bin/libx32/"
+      - "/snap/bin/libx32/"
+      - "/snap/bin/lib/Release/x64/"
+      - "/snap/bin/lib/Release/x64/"
+      - "/snap/bin/lib/Release/x64/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/local/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/local/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/libx32/"
+      - "/usr/local/lib/libx32/"
+      - "/usr/local/lib/libx32/"
+      - "/usr/local/lib/lib/Release/x64/"
+      - "/usr/local/lib/lib/Release/x64/"
+      - "/usr/local/lib/lib/Release/x64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/libx32/"
+      - "/usr/local/libx32/"
+      - "/usr/local/libx32/"
+      - "/usr/local/lib/Release/x64/"
+      - "/usr/local/lib/Release/x64/"
+      - "/usr/local/lib/Release/x64/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/lib/x86_64-linux-gnu/libx32/"
+      - "/usr/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/lib/x86_64-linux-gnu/lib/Release/x64/"
+      - "/usr/lib/x86_64-linux-gnu/lib/Release/x64/"
+    found: "/usr/lib/x86_64-linux-gnu/libGLEW.a"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindGLEW.cmake:265 (find_library)"
+      - "CMakeLists.txt:14 (find_package)"
+    mode: "library"
+    variable: "GLEW_STATIC_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLEWds"
+      - "glewds"
+      - "glew32ds"
+    candidate_directories:
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/lib64/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib64/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib64/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/lib/"
+      - "/lib/lib64/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib64/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib64/"
+      - "/opt/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/lib64/"
+      - "/home/sory/.local/bin/"
+      - "/home/sory/.local/bin/"
+      - "/home/sory/.local/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib64/"
+      - "/sbin/lib64/"
+      - "/sbin/lib64/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/lib64/"
+      - "/bin/lib64/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib64/"
+      - "/usr/games/lib64/"
+      - "/usr/games/lib64/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib64/"
+      - "/lib/x86_64-linux-gnu/lib64/"
+      - "/lib/x86_64-linux-gnu/lib64/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/lib/"
+      - "/lib/lib/"
+      - "/lib/lib/"
+      - "/lib/lib64/"
+      - "/lib/lib64/"
+      - "/lib/lib64/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib64/"
+      - "/opt/lib/x86_64-linux-gnu/lib64/"
+      - "/opt/lib/x86_64-linux-gnu/lib64/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib64/"
+      - "/opt/lib64/"
+      - "/opt/lib64/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:15 (find_package)"
+    name: "assimp"
+    configs:
+      -
+        filename: "assimpConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "assimp-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "assimp"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sory/H_E/build/CMakeFiles/pkgRedirects/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sory/H_E/build/CMakeFiles/pkgRedirects/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sory/.local/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sory/.local/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/usr/lib/x86_64-linux-gnu/cmake/assimp-6.0/assimpConfig.cmake"
+      mode: "config"
+      version: "6.0.4"
+    search_context:
+      ENV{PATH}:
+        - "/home/sory/.local/bin"
+        - "/home/sory/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...

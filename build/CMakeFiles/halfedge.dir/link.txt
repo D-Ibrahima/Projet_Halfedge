@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/halfedge.dir/link.d CMakeFiles/halfedge.dir/structure.cpp.o -o halfedge  /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libglfw.so.3.4 /usr/lib/x86_64-linux-gnu/libassimp.so.6.0.4 -lpugixml
