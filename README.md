@@ -59,15 +59,14 @@ V = 8, E = 18, F = 12
 V - E + F = 2
 Demi-arêtes sans jumelle : 0
 Structure du projet
-.
-├── halfedge.hpp          # Structure Half-Edge et conteneur HalfEdgeMesh
-├── lecture.hpp           # Lecture de fichiers 3D (Assimp)
-├── structure.cpp         # Prototype autonome (console, SVG, HTML interactif)
-├── CMakeLists.txt        # Configuration CMake (C++17)
-├── roadmap_halfedge.tex  # Roadmap
-├── roadmap_mentale.jpeg  # Carte mentale (XMind)
-├── Gant.jpeg             # Diagramme de Gantt
-└── uml diagram           # Lien vers l'UML (Lucidchart)
+── halfedge.hpp          # Structure Half-Edge et conteneur HalfEdgeMesh
+── lecture.hpp           # Lecture de fichiers 3D (Assimp)
+── structure.cpp         # Prototype autonome (console, SVG, HTML interactif)
+── CMakeLists.txt        # Configuration CMake (C++17)
+── roadmap_halfedge.tex  # Roadmap
+── roadmap_mentale.jpeg  # Carte mentale (XMind)
+── Gant.jpeg             # Diagramme de Gantt
+── uml diagram           # Lien vers l'UML (Lucidchart)
 Architecture
 Un seul propriétaire : HalfEdgeMesh possède tous les sommets, faces et demi-arêtes dans trois std::vector. Les autres structures ne portent que des pointeurs bruts non propriétaires.
 Pas de réallocation après câblage : les vecteurs sont dimensionnés une seule fois, les pointeurs restent donc valides.
