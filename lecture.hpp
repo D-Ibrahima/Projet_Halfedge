@@ -1,4 +1,4 @@
-// lecture.hpp : lit (presque) n'importe quel fichier 3D avec Assimp
+// lecture.hpp : lit les fichiers 3D avec Assimp
 //               et le convertit en : points + polygones (indices depuis 0)
 #pragma once
 
@@ -36,8 +36,7 @@ struct HashCleePos {
 };
 }  // namespace detail
 
-// path : lecture seule (const&)   |   brut : SORTIE (reference non const)
-// retour : true si OK
+
 inline bool lireMaillage(const std::string& path, MaillageBrut& brut) {
     Assimp::Importer importer;
     const aiScene* scene = importer.ReadFile(
@@ -51,8 +50,7 @@ inline bool lireMaillage(const std::string& path, MaillageBrut& brut) {
         return false;
     }
 
-    // OBJ, STL... dupliquent les sommets (normales, uv) : on les soude par position
-    // pour que les twins puissent se retrouver.
+    
     std::unordered_map<detail::CleePos, int, detail::HashCleePos> index;
 
     for (unsigned m = 0; m < scene->mNumMeshes; ++m) {
@@ -76,7 +74,7 @@ inline bool lireMaillage(const std::string& path, MaillageBrut& brut) {
 
             std::vector<int> tri = poly;
             std::sort(tri.begin(), tri.end());
-            if (std::adjacent_find(tri.begin(), tri.end()) != tri.end()) {   // face degeneree
+            if (std::adjacent_find(tri.begin(), tri.end()) != tri.end()) {   
                 ++brut.facesIgnorees;
                 continue;
             }
